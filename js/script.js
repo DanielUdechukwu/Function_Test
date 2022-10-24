@@ -5,7 +5,7 @@ let firstToDo = [];
 This function is called to repopulate the 'lists' id in the HTML using the
 updated firstToDo array.
 
-The '\' is to get rig of the 'enter' key line breaks.
+The '\' is to get rid of the 'enter' key line breaks.
 */
 function updateList(todo) {
   document.getElementById("lists").innerHTML += "<div class='list'> \
